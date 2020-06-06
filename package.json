@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "private": true,
   "description": "Estrutura de pastas para desenvolvimento em react",
-  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jPedroSoares/Base-react.git"
@@ -12,13 +11,6 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jPedroSoares/Base-react/issues"
-  },
-  "homepage": "https://github.com/jPedroSoares/Base-react#readme",
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -29,6 +21,12 @@
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.1",
     "styled-components": "^5.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
